@@ -7,6 +7,21 @@ target/
 # Ignore source code
 src/
 
+# ==============================
+# RE-INCLUDE required folders
+# ==============================
+
+# Allow src/main/java path
+!src/main/
+!src/main/java/
+
+# Allow controller & service only
+!src/main/java/**/controller/
+!src/main/java/**/controller/**
+
+!src/main/java/**/service/
+!src/main/java/**/service/**
+
 # Ignore Docker file
 Dockerfile
 
