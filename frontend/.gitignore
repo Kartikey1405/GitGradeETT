@@ -1,6 +1,5 @@
 # Ignore source folder
 src/
-
 # Logs
 logs
 *.log
