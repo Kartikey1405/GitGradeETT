@@ -22,8 +22,7 @@ src/*
 !src/main/java/**/service/
 !src/main/java/**/service/**
 
-# Ignore Docker file
-Dockerfile
+
 
 
 ### STS ###
